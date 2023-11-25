@@ -1,9 +1,6 @@
-public class Bicycle extends Transport {
+public class Bicycle extends WheeledTransport{
 
     public Bicycle(String modelName, int wheelsCount) {
-
         super(modelName, wheelsCount);
     }
-
-
 }
