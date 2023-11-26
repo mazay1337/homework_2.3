@@ -7,7 +7,6 @@ public class Main {
         Truck truck1 = new Truck("truck1", 6);
         Truck truck2 = new Truck("truck2", 8);
 
-
         ServiceStation station = new ServiceStation();
         station.check(bicycle1);
         station.check(bicycle2);
