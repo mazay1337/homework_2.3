@@ -6,6 +6,7 @@ public abstract class WheeledTransport implements Transport{
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
+
     public String getModelName() {
         return modelName;
     }
